@@ -1,0 +1,13 @@
+uHAL - yet another HAL
+=================================
+
+(work in progress)
+
+uHAL is a (originally STM32) hardware abstraction layer which does not fear to break old concepts and
+does the thing in a more modular and modern way. It uses many methods and patterns known from the
+object-oriented world, such as very loose dependencies between the modules, dependency injection,
+strictly defined interfaces, etc. It is a set of concepts and methods for writing interfaces and
+HAL modules/services.
+
+uHal is a high level HAL, it doesn't allow you to communicate with the hardware directly. However, it
+contains a set of ready-made modules which use libopencm3 for this purpose instead.
