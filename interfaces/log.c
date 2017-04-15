@@ -28,7 +28,7 @@
 #include <stdarg.h>
 #include <stdio.h>
 
-#include "interface_log.h"
+#include "log.h"
 
 
 interface_log_ret_t interface_log_init(ILog *self) {
